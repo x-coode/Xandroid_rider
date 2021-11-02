@@ -25,11 +25,13 @@
 اگر git را نصب کردید
 فقط کافیه این ها رو انجام بدید
 
-```git clone https://github.com/x-coode/Xandroid_rider
+```
+git clone https://github.com/x-coode/Xandroid_rider
 python Xandroid_rider.py
 ```
 یا
-```git clone https://github.com/x-coode/Xandroid_rider
+```
+git clone https://github.com/x-coode/Xandroid_rider
 python3 Xandroid_rider.py
 ```
 
@@ -60,10 +62,12 @@ python3 Xandroid_rider.py
 
 # HOW TO INSTALL
 just do
-```git clone https://github.com/x-coode/Xandroid_rider
+```
+git clone https://github.com/x-coode/Xandroid_rider
 python Xandroid_rider.py
 ```
 or
-```git clone https://github.com/x-coode/Xandroid_rider
+```
+git clone https://github.com/x-coode/Xandroid_rider
 python3 Xandroid_rider.py
 ```
