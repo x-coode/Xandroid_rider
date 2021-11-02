@@ -20,9 +20,18 @@
 * دیدن وضعیت باتری
 * دیدن فعالیت حال حاضر دستگاه
 
+# روش نصب
 
+اگر git را نصب کردید
+فقط کافیه این ها رو انجام بدید
 
-
+```git clone https://github.com/x-coode/Xandroid_rider
+python Xandroid_rider.py
+```
+یا
+```git clone https://github.com/x-coode/Xandroid_rider
+python3 Xandroid_rider.py
+```
 
 # Xandroid_rider
 #### script for connect to android with adb port
@@ -50,4 +59,11 @@
 
 
 # HOW TO INSTALL
-just do ``` git clone  ``` , ```python Xandroid_rider.py ``` or ```python3 Xandroid_rider.py ```
+just do
+```git clone https://github.com/x-coode/Xandroid_rider
+python Xandroid_rider.py
+```
+or
+```git clone https://github.com/x-coode/Xandroid_rider
+python3 Xandroid_rider.py
+```
