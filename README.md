@@ -27,11 +27,23 @@
 
 ```
 git clone https://github.com/x-coode/Xandroid_rider
+```
+```
+cd Xandroid_rider
+```
+
+```
 python Xandroid_rider.py
 ```
 یا
 ```
 git clone https://github.com/x-coode/Xandroid_rider
+```
+```
+cd Xandroid_rider
+```
+
+```
 python3 Xandroid_rider.py
 ```
 
@@ -62,12 +74,26 @@ python3 Xandroid_rider.py
 
 # HOW TO INSTALL
 just do
+
 ```
 git clone https://github.com/x-coode/Xandroid_rider
+```
+```
+cd Xandroid_rider
+```
+
+```
 python Xandroid_rider.py
 ```
 or
+
 ```
 git clone https://github.com/x-coode/Xandroid_rider
+```
+```
+cd Xandroid_rider
+```
+
+```
 python3 Xandroid_rider.py
 ```
