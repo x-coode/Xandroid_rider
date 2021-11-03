@@ -14,7 +14,11 @@ try:
     from colorama import Fore, init
 except ImportError:
     os.system("python -m pip install colorama")
-shutil.unpack_archive("adb.zip", CurrentDir)
+try:
+    adbf=open("adb.exe","rb")
+    adbf.close()
+except FileExistsError :
+    shutil.unpack_archive("adb.zip", CurrentDir)
 #=============================
 #Install Functions
 '''def ColoringModeStartup():
