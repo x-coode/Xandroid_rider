@@ -19,30 +19,9 @@ try:
     adbf.close()
 except FileExistsError :
     shutil.unpack_archive("adb.zip", CurrentDir)
-#=============================
-#Install Functions
-'''def ColoringModeStartup():
-    coloring_file = open(CurrentDir+"\\install\\coloring.txt", "a+")
-    line = open(CurrentDir+"\\install\\coloring.txt", "a+").readline()
-    if 'true' in line:
-     init(convert=True)
-     main()
-    if 'false' in line:
-     windows=False
-     main()
-    if "NOT_LOADED" in line:
-     platform_choice = input("Are you loading this script in (W)indows or (L)inux: ")
-     open(CurrentDir+"\\install\\coloring.txt", "w").close()
-     if platform_choice.lower() == 'w':
-         coloring_file.write("true")
-     else:
-         coloring_file.write("false")
-         yn = input(Fore.WHITE + "Have you already installed adb via command line "+Fore.GREEN + "Y"+Fore.WHITE+"/"+Fore.RED+"N "+Fore.WHITE)
-         if yn == "n":
-             os.system("sudo apt install adb")
-         else:
-             main()'''
-
+    
+    
+    
 #=============================
 
 arrow = Fore.RED + " ->" + Fore.WHITE
